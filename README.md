@@ -36,19 +36,19 @@ For more information about Downloader Plus and other projects by SandeshAI Plus,
 
 
    The application will now be accessible at `http://localhost:7800`.
-   'or'
-   '127.0.0.1:7800'
-   'or'
-   '192.168.x.x:7800' 'x is your ip local one '
+   `or`
+   `127.0.0.1:7800`
+   `or`
+   `192.168.x.x:7800` `x is your ip local one `
 2. To specify port:
     ```bash
    docker run -itd --name = downloaderpluslinux -p <your port>:7800 sandeshaiplus/downloaderpluslinux:stable
    ```
      The application will now be accessible at `http://localhost:<your port>`.
-   'or'
-   '127.0.0.1:<your port>'
-   'or'
-   '192.168.x.x:<your port>' 'x is your ip local one '
+   `or`
+   `127.0.0.1:<your port>`
+   `or`
+   `192.168.x.x:<your port> `  `x is your ip local one `
 ## Platform-Specific Instructions
 
 | Platform    | Command to Download Docker                                   |
