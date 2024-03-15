@@ -1,9 +1,20 @@
 
 
 
-# Dockerized Application
+#Downloader Plus By Sandeshai
+- Downloader Plus is a project aimed at providing a comprehensive solution for downloading content from platforms like Spotify and YouTube. It offers users the ability to effortlessly retrieve their favorite music, videos, and other media content directly to their devices for offline access.
 
-This repository contains a Dockerized application. Follow the instructions below to download and run the Docker container on your system.
+- Features
+##Spotify Downloader: Download your favorite songs, playlists, and albums from Spotify in high quality for offline listening.
+YouTube Downloader: Grab videos, playlists, and even entire channels from YouTube with ease, enabling you to watch them offline anytime, anywhere.
+Simple Interface: User-friendly interface makes downloading content a breeze, even for those with limited technical knowledge.
+##High Quality: Ensure that downloaded content maintains its original quality, whether it's music tracks or high-definition videos.
+Cross-Platform Compatibility: Compatible with various operating systems, including Windows, macOS, and Linux, ensuring accessibility for all users.
+About SandeshAI Plus
+SandeshAI Plus is a technology-focused organization dedicated to developing innovative solutions that enhance user experiences across various digital platforms. With a commitment to excellence and a passion for cutting-edge technologies, SandeshAI Plus strives to deliver impactful products and services that empower users worldwide.
+
+Learn More
+For more information about Downloader Plus and other projects by SandeshAI Plus, visit [SandeshAI Downloader Plus](https://sandeshai/downlaoderplus).
 
 ## Prerequisites
 
@@ -11,32 +22,32 @@ This repository contains a Dockerized application. Follow the instructions below
 
 ## Instructions
 
-1. Clone this repository to your local machine:
+
+
+
+
+1. Run the Docker Image:
 
    ```bash
-   git clone https://github.com/yourusername/dockerized-application.git
+   docker run -itd --name = downloaderpluslinux -p 7800:7800 sandeshaiplus/downloaderpluslinux:stable
    ```
 
-2. Navigate to the cloned repository:
 
-   ```bash
-   cd dockerized-application
+
+   The application will now be accessible at `http://localhost:7800`.
+   'or'
+   '127.0.0.1:7800'
+   'or'
+   '192.168.x.x:7800' 'x is your ip local one '
+2. To specify port:
+    ```bash
+   docker run -itd --name = downloaderpluslinux -p <your port>:7800 sandeshaiplus/downloaderpluslinux:stable
    ```
-
-3. Build the Docker image:
-
-   ```bash
-   docker build -t my-dockerized-app .
-   ```
-
-4. Run the Docker container:
-
-   ```bash
-   docker run -d -p 8080:80 my-dockerized-app
-   ```
-
-   The application will now be accessible at `http://localhost:8080`.
-
+     The application will now be accessible at `http://localhost:<your port>`.
+   'or'
+   '127.0.0.1:<your port>'
+   'or'
+   '192.168.x.x:<your port>' 'x is your ip local one '
 ## Platform-Specific Instructions
 
 | Platform    | Command to Download Docker                                   |
