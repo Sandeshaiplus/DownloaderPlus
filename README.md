@@ -73,5 +73,4 @@ If you find any issues with the application or have suggestions for improvements
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
 
