@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Dockerized Application
 
 This repository contains a Dockerized application. Follow the instructions below to download and run the Docker container on your system.
