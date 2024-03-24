@@ -28,12 +28,14 @@ For more information about Downloader Plus and other projects by SandeshAI Plus,
 
 
 1. Run the Docker Image:
-
+   for version 1
    ```bash
    docker run -itd --name = downloaderpluslinux -p 7800:7800 sandeshaiplus/downloaderpluslinux:stable
    ```
-
-
+   for version 2 
+    ```bash
+   docker run -itd --name = downloaderplusv2 -p 7800:7800 sandeshaiplus/downloaderplusv1.0.0.0.0.2:stable
+   ```
 
    The application will now be accessible at `http://localhost:7800`.
    `or`
